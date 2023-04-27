@@ -13,5 +13,5 @@ This is the web app version of the securemessh program. The client can now be ru
 
 - You will need to enter the server name and/or ip address, username, password and a message.
 
-### To receive message. Start a listener on another device running bash
+### To receive a message. Start a listener on another device running bash
 - A listener may be started using the following command : `sudo nc -l -p 443 -k`
