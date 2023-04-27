@@ -5,7 +5,7 @@ This is the web app version of the securemessh program. The client can now be ru
 - Ensure that you have python installed on the device you would like to run the client on.
 - Clone the repo.
 - Run : `sudo python3 securemessh.py`
--- You may the open your web browser of choice, and navigate to `http://127.0.0.1:5000`. You should see the following screen :
+-- You may then open your web browser of choice, and navigate to `http://127.0.0.1:5000`. You should see the following screen :
 
 ![image](https://user-images.githubusercontent.com/101802030/234892099-a0fee48f-f6fe-42ce-8808-80adaaa407c6.png)
 
