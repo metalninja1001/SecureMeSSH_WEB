@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Secure Me SSH</title>
+        <link rel="stylesheet" href="/static/style.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                setInterval(function() {
+                    $.ajax({
+                        url: "/get_message",
+                        type: "GET",
+                        success: function(response) {
+                            $("#message").html(response.message);
+                        }
+                    });
+                })
+            }, 1000);
+        </script>
+    </head>
+
+    <body>
+        <h1>Secure Me SSH</h1>
+
+        <form action="/send_message" method="post">
+            <label for="server">Server:</label>
+            <input type="text" id="server" name="server"><br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" oninput="this.type='password'"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send_message">
+        </form>
+    </body>
+</html>
