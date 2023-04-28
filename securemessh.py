@@ -34,4 +34,4 @@ def send_message():
     return jsonify({'response':response})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) # If you would like to run the app on your lan ip, you change this line to app.run(host='LANIP/WANIP')
