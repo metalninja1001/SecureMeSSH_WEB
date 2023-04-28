@@ -9,6 +9,7 @@ This is the web app version of the securemessh python3 application. The client c
 
 ## How to:
 - Ensure that you have python installed on the device you would like to run the client on. You may do so by following the this link : https://www.python.org/downloads/
+- Modules(dependencies) - `paramiko`, `typer`
 - Clone the repo. Run - `sudo git clone https://github.com/metalninja1001/SecureMeSSH_WEB.git` in your terminal.
 - To start the client. Run - `sudo python3 securemessh.py`
 
