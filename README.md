@@ -15,7 +15,8 @@ This is the web app version of the securemessh python3 application. The client c
 
 -- You may then open your web browser of choice, and navigate to `http://127.0.0.1:5000`. You should see the following screen :
 
-![image](https://user-images.githubusercontent.com/101802030/234892099-a0fee48f-f6fe-42ce-8808-80adaaa407c6.png)
+![image](https://user-images.githubusercontent.com/101802030/235178867-31b00a9c-23c1-4416-9084-2bce7ef817ab.png)
+
 
 
 
