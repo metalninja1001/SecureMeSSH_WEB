@@ -5,7 +5,7 @@
 
 
 ## SecureMeSSH_WEB
-This is the web app version of the securemessh python application. The client can now be run in your web browser of choice.
+This is the web app version of the securemessh python3 application. The client can now be run in your web browser of choice.
 
 ## How to:
 - Ensure that you have python installed on the device you would like to run the client on. You may do so by following the this link : https://www.python.org/downloads/
