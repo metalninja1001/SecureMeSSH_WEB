@@ -23,7 +23,7 @@ This is the web app version of the securemessh python3 application. The client c
 - You will need to enter the server name and/or ip address, username, password and a message.
 
 ### To receive a message. Start a listener on another device running bash. This device could be on your local lan or the internet.
-- A listener may be started using the following command : `sudo nc -l -p 443 -k`
+- A listener may be started by running the server : `sudo python3 server.py`
 
 ![image](https://user-images.githubusercontent.com/101802030/235178175-57d3ba18-a6cf-42d4-a562-c0ad9f3daefc.png)
 
